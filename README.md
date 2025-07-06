@@ -17,7 +17,7 @@ This script automatically changes your wallpaper based on the time of day, suppo
 ## Requirements
 
 - [Hyprland](https://github.com/hyprwm/Hyprland) window manager
-- [`swww`](https://github.com/HorusHo/swww) wallpaper setter installed and in your `$PATH`
+- [`swww`](https://github.com/LGFae/swww) wallpaper setter installed and in your `$PATH`
 - `hyprctl` command available (part of Hyprland)
 - Bash shell
 
