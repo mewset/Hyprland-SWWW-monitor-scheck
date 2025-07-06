@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Start swww daemon if not running
+if ! pgrep -x "swww" > /dev/null; then
+  swww daemon &
+  sleep 1  # ge daemonen lite tid att starta
+fi
+
 # Load config
 CONFIG_FILE="${HOME}/.config/wallpaper_switcher/config.ini"
 
